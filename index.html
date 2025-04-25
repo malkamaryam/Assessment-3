@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    
+    @media (max-width:750px) {
+      h1{
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      }
+    }
+    h1 {
+      display: flex;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 1;
+    }
+    
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 25px;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    @media(max-width:768px) {
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 1;
+      }
+
+    }
+
+    .container>div {
+      border: 3px solid black;
+      padding: 10px;
+      box-shadow: 5px 5px 5px black;
+      border-radius: 10px;
+    }
+
+    .image {
+      text-align: center;
+    }
+
+    img {
+      height: 250px;
+      width: 280px;
+      box-shadow: 5px 5px 5px gray;
+
+    }
+
+    .container {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: small;
+    }
+    
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <h1>MY PORTFOLIO</h1>
+  <div class="container">
+    <div class="image"><img src="./image 1.jpg" alt="Peaceful Waters of Upper Kachura Lake" />
+      <h2>Peaceful Waters of Upper Kachura Lake</h2>
+      <p>
+        This image captures the serene beauty of Upper Kachura Lake in Skardu,
+        Gilgit-Baltistan, Pakistan. Surrounded by rugged mountains and lined
+        with golden autumn trees, the still blue waters reflect the tranquil
+        landscape, creating a dreamy mirror effect. It's a perfect blend of
+        nature’s calm and raw highland wilderness.
+      </p>
+    </div>
+    <div class="image"><img src="./image 2.jpg" alt="Majestic Cathedral Range of Passu Cones" />
+      <h2>Majestic Cathedral Range of Passu Cones</h2>
+      <p>
+        This stunning photo showcases the dramatic and iconic Passu Cones (or
+        Cathedral Range) in the Hunza Valley, Pakistan. The sharp, jagged peaks
+        dominate the background, towering over a vast plain below. The contrast
+        between the lush greenery and barren mountains offers a breathtaking
+        glimpse of northern Pakistan's natural splendor.
+      </p>
+    </div>
+    <div class="image"><img src="./image 3.jpg" alt="Majestic Passu Cones, Pakistan" />
+      <h2>Majestic Passu Cones, Pakistan</h2>
+      <p>
+        Towering over the Hunza Valley, the dramatic spires of the Passu Cones
+        rise against a backdrop of rugged terrain and deep shadows, forming one
+        of the most iconic landscapes in northern Pakistan.Carved by nature and
+        kissed by snow, these peaks echo the silent strength of the Karakoram. A
+        haven for adventurers and photographers alike.
+      </p>
+    </div>
+    <div class="image"><img src="./image 4.jpg" alt="Serenity in the Neelum Valley" />
+      <h2>Serenity in the Neelum Valley</h2>
+      <p>
+        A crystal-clear river winds through the lush pine forest of Azad
+        Kashmir's Neelum Valley, reflecting the vibrant blues and greens of a
+        perfect alpine day under a dynamic sky. The air is pure, the waters
+        untouched—a hidden paradise where nature whispers peace with every
+        breeze and ripple.
+      </p>
+    </div>
+    <div class="image"><img src="./image 5.jpg" alt="Beacon of Solitude" />
+      <h2>Beacon of Solitude</h2>
+      <p>A solitary, leafless tree stands tall in a golden, sandy landscape, its silhouette dramatically stretched
+        across the textured earth by the morning sun bursting through its bare branches. Behind it, snow-capped
+        mountains embrace the horizon under a sky of deep blue and scattered clouds. The interplay of light and shadow
+        creates a
+        mesmerizing contrast, symbolizing resilience and silent beauty amidst a meeting of extremes—warmth and cold,
+        life and stillness.</p>
+    </div>
+    <div class="image"><img src="./image 6.jpg" alt="Serene Sand Dunes in the Desert" />
+      <h2>Serene Sand Dunes in the Desert</h2>
+      <p>This image captures a stunning view of golden sand dunes under natural sunlight. The smooth, flowing curves of
+        the dunes are accentuated by the shadows cast along the slopes. Sparse vegetation dots the landscape, hinting at
+        life in this arid environment. The patterns on the sand, created by wind and footsteps, add texture and depth,
+        while the background reveals a contrasting dark, rocky terrain. This serene desert scene exudes tranquility and
+        the raw beauty of untouched nature.</p>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
